@@ -1,7 +1,7 @@
 ---
 title: "Lively: Enabling Multimodal, Lifelike, and Extensible Real-time Robot Motion"
 collection: publications
-permalink: /publication/2022-03-07-Lively-Enabling-Multimodal-Lifelike-and-Extensible-Real-time-Robot-Motion
+permalink: /publication/2023-03-13-Lively-Enabling-Multimodal-Lifelike-and-Extensible-Real-time-Robot-Motion
 excerpt:
 date: 2023-03-13
 venue: 'HRI 23: ACM/IEEE International Conference on Human-Robot Interaction'
