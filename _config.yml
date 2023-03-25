@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Dakota Sullivan"
-  avatar           : "Headshot.png"
+  avatar           : "https://github.com/dsullivan117/dsullivan117.github.io/blob/master/Headshot.png"
   bio              : "Graduate student researching social and cognitive robotics"
   location         : "University of Wisconsin–Madison"
   employer         :
