@@ -9,4 +9,4 @@ redirect_from:
 
 [Download a PDF copy](https://drive.google.com/file/d/1rmurW71A5PNCvU6t0Yq7LeMZFIuF6fMT/preview) *— Updated: March 2023*
 
-<iframe src="https://drive.google.com/file/d/1rmurW71A5PNCvU6t0Yq7LeMZFIuF6fMT/view" width="100%" height="480" allow="autoplay"></iframe>
+<iframe src="https://drive.google.com/file/d/1rmurW71A5PNCvU6t0Yq7LeMZFIuF6fMT/preview" width="100%" height="480" allow="autoplay"></iframe>
