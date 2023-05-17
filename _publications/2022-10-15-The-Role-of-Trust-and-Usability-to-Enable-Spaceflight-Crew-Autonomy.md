@@ -6,7 +6,7 @@ excerpt:
 date: 2022-10-15
 venue: 'ASCEND 2022'
 paperurl: 
-citation: 'Marquez, Jessica J., Dakota Sullivan, and John Karasinski. 2022. &quot;The Role of Trust and Usability to Enable Spaceflight Crew Autonomy.&quot; <i>In ASCEND 2022</i>. (p.4262).'
+citation: 'Marquez, J., Sullivan, D., & Karasinski, J. 2022. &quot;The Role of Trust and Usability to Enable Spaceflight Crew Autonomy.&quot; <i>In ASCEND 2022</i>. (p.4262).'
 ---
 
 [Paper Available Here](https://arc.aiaa.org/doi/abs/10.2514/6.2022-4262)
