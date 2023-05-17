@@ -7,6 +7,6 @@ redirect_from:
   - /resume
 ---
 
-[Download a PDF copy](https://drive.google.com/drive/u/0/folders/1d1gqIArRQT6DL0h1ETgM1ktEdyVMsv3F/view) *— Updated: May 2023*
+[Download a PDF copy](https://drive.google.com/file/d/14ONW-9bsoxVmk9uVQg7ObbCqxJs_CLWt/view) *— Updated: May 2023*
 
-<iframe src="https://drive.google.com/file/d/1QL6p5FEEKV5T53R9tDS645tmv6_ZOqxN/preview" width="100%" height="480" allow="autoplay"></iframe>
+<iframe src="https://drive.google.com/file/d/14ONW-9bsoxVmk9uVQg7ObbCqxJs_CLWt/preview" width="100%" height="480" allow="autoplay"></iframe>
