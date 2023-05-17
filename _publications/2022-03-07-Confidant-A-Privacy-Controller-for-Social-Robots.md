@@ -6,7 +6,7 @@ excerpt:
 date: 2022-03-07
 venue: 'HRI 22: ACM/IEEE International Conference on Human-Robot Interaction'
 paperurl: 
-citation: 'Brian Tang, Dakota Sullivan, Bengisu Cagiltay, Varun Chandrasekaran, Kassem Fawaz, and Bilge Mutlu. 2022. &quot;CONFIDANT: A Privacy Controller for Social Robots.&quot; <i>In Proceedings of the 2022 ACM/IEEE International Conference on Human-Robot Interaction (HRI 22)</i>. IEEE Press, 205–214.'
+citation: 'Tang, B., Sullivan, D., Cagiltay, B., Chandrasekaran, V., Fawaz, K., & Mutlu, B. 2022. &quot;CONFIDANT: A Privacy Controller for Social Robots.&quot; <i>In Proceedings of the 2022 ACM/IEEE International Conference on Human-Robot Interaction (HRI 22)</i>. IEEE Press, 205–214.'
 ---
 
 [Download Paper Here](https://arxiv.org/pdf/2201.02712)
