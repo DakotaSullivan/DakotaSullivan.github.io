@@ -6,7 +6,7 @@ excerpt:
 date: 2025-03-3
 venue: 'HRI 25: ACM/IEEE International Conference on Human-Robot Interaction'
 paperurl:
-citation: 'Sullivan, D. & Mutlu, B. 2025. &quot;Protecting User Data Through Privacy-Sensitive Robot Design.&quot; <i>In Proceedings of the 2024 ACM/IEEE International Conference on Human-Robot Interaction (HRI 24)</i>. Association for Computing Machinery, New York, NY, USA, 706–714.'
+citation: 'Sullivan, D. & Mutlu, B. 2025. &quot;Protecting User Data Through Privacy-Sensitive Robot Design.&quot; <i>In Companion of the 2025 ACM/IEEE International Conference on Human-Robot Interaction (HRI 25)</i>. Association for Computing Machinery, New York, NY, USA.'
 ---
 
 [Download Paper Here](https://dl.acm.org/doi/pdf/10.1145/3610977.3634937)
