@@ -1,14 +1,14 @@
 ---
-title: "Protecting User Data Through Privacy-Sensitive Robot Design"
+title: "Examining the Effectiveness of Obfuscatory Planning Strategies through Human Observation"
 collection: publications
-permalink: /publication/2025-03-03-Protecting-User-Data-Through-Privacy-Sensitive-Robot-Design
+permalink: /publication/2026-03-012-Examining-the-Effectiveness-of-Obfuscatory-Planning-Strategies-through-Human-Observation
 excerpt:
-date: 2025-03-3
-venue: 'HRI 25: ACM/IEEE International Conference on Human-Robot Interaction'
+date: 2026-03-12
+venue: 'HRI 26: ACM/IEEE International Conference on Human-Robot Interaction'
 paperurl:
-citation: 'Sullivan, D. & Mutlu, B. 2025. &quot;Protecting User Data Through Privacy-Sensitive Robot Design.&quot; <i>In Companion of the 2025 ACM/IEEE International Conference on Human-Robot Interaction (HRI 25)</i>. Association for Computing Machinery, New York, NY, USA.'
+citation: 'Sullivan, D., Porfirio, D., Mutlu, B., & Hiatt, L. 2026 &quot;Examining the Effectiveness of Obfuscatory Planning Strategies through Human Observation.&quot; <i>In Companion of the 2026 ACM/IEEE International Conference on Human-Robot Interaction (HRI 26)</i>. Association for Computing Machinery, New York, NY, USA.'
 ---
 
 [Download Paper Here](http://dakotasullivan.github.io/files/PrivacySensitiveDesign.pdf)
 
-**Abstract:** While robots possess many capabilities that may positively influence human lives, their autonomous navigation and sensing capabilities pose threats to user privacy. These threats may be addressed at three key phases: data collection, data retention, and data exposure. In this work, we discuss our prior, current, and proposed robot design efforts to reduce privacy violations during human-robot interaction (HRI). At the data collection phase, we are currently exploring designs that enable robots to inhibit data collection by blocking their own sensors. At the data retention phase, we propose the exploration of privacy preferences to inform designs that grant users greater control over retained data. Finally, in the data exposure phase, we discuss our prior works developing a privacy controller for appropriate data exposure and generating task-planning strategies to limit unintentional data exposure. Through this work, we hope to protect user data and reduce the likelihood of harm to users.
+**Abstract:** Robots are increasingly relied upon for task completion in privacy-critical human environments. In these environments, it is imperative that a robot’s potentially sensitive goals remain obfuscated. To address this need, a substantial amount of literature has proposed methods for obfuscatory task planning. These works make many attempts to experimentally or analytically determine whether agents can conceal their goals from observers. While these works make guarantees that resulting plans will conceal an agent’s goals, they are often only theoretical. Within this work, we develop three obfuscatory task planning strategies inspired by prior literature to evaluate with human observers (𝑁= 160). Our preliminary results show that observers struggle to identify a robot’s goals at similar levels regardless of whether obfuscatory or optimal task planning strategies are employed. These findings call into question the purported benefits of many obfuscatory task planning strategies.
