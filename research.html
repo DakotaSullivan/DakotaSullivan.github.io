@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Research — Dakota Sullivan</title>
+<meta name="description" content="Dakota Sullivan is a Ph.D. candidate in Computer Sciences at UW–Madison researching privacy in human-robot interaction.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="site-nav" aria-label="Main">
+  <div class="container">
+    <span class="site-name">Dakota Sullivan</span>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">About</a></li>
+      <li><a href="research.html" class="active" aria-current="page">Research</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="cv.html">CV</a></li>
+      <li><a href="https://peopleandrobots.wisc.edu/">Lab<svg class="ext-icon" viewBox="3 3 18 18" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4h6v6"/><path d="M20 4l-9 9"/><path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg><span class="visually-hidden"> (external site)</span></a></li>
+    </ul>
+  </div>
+</nav>
+
+<main>
+<section class="section" id="research">
+  <div class="container">
+    <p class="section-label">Research</p>
+    <h2>Privacy-Sensitive Robot Design</h2>
+    <p class="section-intro">My research examines how robots that share our private spaces can safely handle the information they collect and grant greater control of privacy to people. Highlights from my work in the <a href="https://peopleandrobots.wisc.edu/">People and Robots Lab</a>:</p>
+
+    <!--
+      To add a picture to a research card, put an image in your repo's images/ folder
+      and change the url(...) in that card's style, e.g. url('images/privacy.jpg').
+      Until then, the card shows a plain grey block.
+    -->
+    <div class="research-grid featured-grid">
+      <button class="research-card featured" aria-expanded="false" aria-controls="panel-1" data-order="1">
+        <div class="research-img" style="background-image: url('images/research-privacy.jpg');" role="img" aria-label="Privacy-Sensitive Robots"></div>
+        <div class="research-body">
+          <h3>Privacy-Sensitive Robots</h3>
+          <p>Designing robots that give users control over what is collected, recognize and respond to private moments, and keep sensitive information or task progress private from others.</p>
+          <span class="research-more"><span class="open">Learn more ▾</span><span class="close">Show less ▴</span></span>
+        </div>
+      </button>
+      <div class="research-panel" id="panel-1" hidden data-order="2">
+        <div>
+          <h4>About This Research</h4>
+          <p>As robots enter homes and other private settings, they may see, hear, and infer information people want to remain private. This work develops signal and inhibition mechanisms for data collection, explores LLM-enabled recognition of and response to private moments, and proposes approaches to limiting the disclosure and exposure of sensitive information to others.</p>
+        </div>
+        <div>
+          <h4>Selected Papers</h4>
+          <ul>
+            <li>See No Evil, Hear No Evil: Exploring Privacy-Preserving Designs for Social Robot Data Collection <span class="venue">Conference manuscript under review</span></li>
+            <li><a href="https://arxiv.org/abs/2507.16124">Benchmarking LLM Privacy Recognition for Social Robot Decision Making</a> <span class="venue">Conference manuscript under review</span></li>
+            <li><a href="https://dl.acm.org/doi/10.5555/3523760.3523790">CONFIDANT: A Privacy Controller for Social Robots</a> <span class="venue">HRI 2022</span></li>
+            <li><a href="https://dakotasullivan.github.io/files/ObfuscatoryPlanning.pdf">Examining the Effectiveness of Obfuscatory Planning Strategies through Human Observation</a> <span class="venue">HRI 2026 Companion · Best Late-Breaking Report Nominee 🏅</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="sub research-subhead">Other Research Highlights</h3>
+    <p class="sub-note">Works on human-robot interaction beyond privacy</p>
+
+    <div class="research-grid two-grid">
+      <button class="research-card" aria-expanded="false" aria-controls="panel-2" data-order="1">
+        <div class="research-img" style="background-image: url('images/research-collaboration.jpg');" role="img" aria-label="Human-Robot Collaboration"></div>
+        <div class="research-body">
+          <h3>Human-Robot Collaboration</h3>
+          <p>Supporting how collaborative robots are brought into real workplaces, from integration decisions to training the people who program them.</p>
+          <span class="research-more"><span class="open">Learn more ▾</span><span class="close">Show less ▴</span></span>
+        </div>
+      </button>
+      <button class="research-card" aria-expanded="false" aria-controls="panel-3" data-order="3">
+        <div class="research-img" style="background-image: url('images/research-motion.jpg');" role="img" aria-label="Interaction &amp; Motion Design"></div>
+        <div class="research-body">
+          <h3>Interaction &amp; Motion Design</h3>
+          <p>Exploring new sources for designing how robots behave and first meet the people they interact with, and creating lifelike robot motion.</p>
+          <span class="research-more"><span class="open">Learn more ▾</span><span class="close">Show less ▴</span></span>
+        </div>
+      </button>
+      <div class="research-panel" id="panel-2" hidden data-order="2">
+        <div>
+          <h4>About This Research</h4>
+          <p>Collaborative robots (cobots) can complement existing human workflows, but realizing this potential depends on how they are integrated and who is able to use them. This work helps stakeholders consider worker preferences, business goals, and cobot constraints as well as train novice operators to program cobots the way experts do, and considers what purposeful integration of robots in the real world requires.</p>
+        </div>
+        <div>
+          <h4>Selected Papers</h4>
+          <ul>
+            <li><a href="https://dl.acm.org/doi/10.1145/3610977.3634937">Making Informed Decisions: Supporting Cobot Integration Considering Business and Worker Preferences</a> <span class="venue">HRI 2024</span></li>
+            <li><a href="https://dl.acm.org/doi/abs/10.1145/3812673">Robots in the Real World: Promise, Peril, and Purposeful Integration</a> <span class="venue">XRDS: Crossroads, The ACM Magazine for Students, 2026</span></li>
+            <li>CoFrame: A System for Training Novice Cobot Programmers <span class="venue">Journal manuscript under review</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="research-panel" id="panel-3" hidden data-order="4">
+        <div>
+          <h4>About This Research</h4>
+          <p>How robots behave, interact, and initially introduce themselves to the world around them is what helps truly bring them to life in the eyes of people. This work proposes the use of primal world beliefs to derive robot behavior and character from a consistent internal state, introduces Lively, a framework for real-time, lifelike robot motion, and explores how the unboxing process can imbue robots with character from their very first interaction.</p>
+        </div>
+        <div>
+          <h4>Selected Papers</h4>
+          <ul>
+            <li><a href="https://dl.acm.org/doi/10.1145/3749997">Robot Primals: Exploring World Beliefs as a Source for Robot Behavior Design</a> <span class="venue">ACM Transactions on Human-Robot Interaction, 2026</span></li>
+            <li><a href="https://doi.org/10.1145/3568162.3576982">Lively: Enabling Multimodal, Lifelike, and Extensible Real-time Robot Motion</a> <span class="venue">HRI 2023 · Best Systems Paper 🏆</span></li>
+            <li><a href="https://dl.acm.org/doi/10.1145/3568294.3580038">Demonstrating the Potential of Interactive Product Packaging for Enriching Human-Robot Interaction</a> <span class="venue">HRI 2023 Companion</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container">
+    <span>© 2026 Dakota Sullivan · Ph.D. Candidate · UW–Madison · Computer Sciences</span>
+  </div>
+</footer>
+
+<script src="site.js"></script>
+</body>
+</html>
