@@ -326,4 +326,4 @@ footer { font-size: 14.5px; }
 /* =====================================================================
    CV viewer: a little shorter, with a small margin at the top inside the window
    ===================================================================== */
-.cv-frame { height: 72vh; min-height: 460px; padding-top: 12px; background: var(--soft); box-sizing: border-box; }
+.cv-frame { height: 72vh; min-height: 460px; }
