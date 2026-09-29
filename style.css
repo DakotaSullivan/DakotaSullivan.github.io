@@ -316,14 +316,6 @@ footer { font-size: 14.5px; }
 }
 
 /* =====================================================================
-   Research images: light greyscale until hovered (or opened)
-   ===================================================================== */
-.research-img { filter: grayscale(100%) brightness(1.06) contrast(0.92); transition: filter .35s ease; }
-.research-card:hover .research-img,
-.research-card:focus-visible .research-img,
-.research-card[aria-expanded="true"] .research-img { filter: none; }
-
-/* =====================================================================
    CV viewer: a little shorter, with a small margin at the top inside the window
    ===================================================================== */
 .cv-frame { height: 72vh; min-height: 460px; }
