@@ -360,3 +360,9 @@ footer { box-shadow: 0 -3px 12px rgba(20, 30, 55, 0.22), 0 50vh 0 50vh var(--acc
 @media (min-width: 861px) {
   .research-card.featured .research-img { width: auto; flex: 0 0 46%; height: auto; padding-top: 0; min-height: 280px; }
 }
+
+/* Over-scroll, attempt 3: make the page body itself dark blue (some Safari versions use the
+   body color for the bounce area) and give the page content its own white background.
+   The content stretches to fill the screen, so no blue shows between it and the footer. */
+body { background: var(--accent); }
+body > header, body > main, body > .page:not([hidden]) { background: #fff; flex: 1 0 auto; }
