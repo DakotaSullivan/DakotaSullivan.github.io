@@ -391,3 +391,6 @@ html.lightbox-open, html.lightbox-open body { overflow: hidden; }
 h1, h2, h3, h4, .site-name,
 .hero h1, .section h2, .section h3.sub,
 .research-body h3, .research-panel h4 { font-weight: 400; }
+
+/* ============ Body font: Avenir ============ */
+:root { --font: "Avenir Next", "Avenir", "Nunito Sans", "Segoe UI", system-ui, -apple-system, sans-serif; }
