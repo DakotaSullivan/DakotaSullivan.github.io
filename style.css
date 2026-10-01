@@ -385,3 +385,9 @@ body > header, body > main, body > .page:not([hidden]) { background: #fff; flex:
 .lightbox-close:hover, .lightbox-close:focus-visible { background: #fff; }
 html.lightbox-open, html.lightbox-open body { overflow: hidden; }
 @media (prefers-reduced-motion: reduce) { .lightbox, .lightbox-img { transition: none; } }
+
+/* ============ Heading font: Didot ============ */
+:root { --heading-font: "Didot", "GFS Didot", "Bodoni 72", Georgia, serif; }
+h1, h2, h3, h4, .site-name,
+.hero h1, .section h2, .section h3.sub,
+.research-body h3, .research-panel h4 { font-weight: 400; }
