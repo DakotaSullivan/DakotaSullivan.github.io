@@ -394,3 +394,9 @@ h1, h2, h3, h4, .site-name,
 
 /* ============ Body font: Avenir ============ */
 :root { --font: "Avenir Next", "Avenir", "Nunito Sans", "Segoe UI", system-ui, -apple-system, sans-serif; }
+
+/* Research page: privacy panel split evenly between picture and text (computers and tablets) */
+@media (min-width: 861px) {
+  .research-card.featured .research-img { flex: 0 0 50%; }
+  .research-card.featured .research-body { flex: 1 1 0; min-width: 0; }
+}
